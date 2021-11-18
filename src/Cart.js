@@ -10,6 +10,7 @@ const Cart = () => {
         updateItemQuantity,
         removeItem,
         emptyCart,
+        cartTotal
         } = useCart();
       if (isEmpty) return <h1 className="text-center">Your Cart is Empty</h1>
   return (
@@ -37,7 +38,9 @@ const Cart = () => {
               })}
               </tbody>
             </table>
-
+            </div>
+            <div className="col-auto ms-auto">
+              <h2>Total Price: $ { cartTotal }</h2>
             </div>
         </div>
     </section>
