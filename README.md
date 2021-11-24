@@ -77,7 +77,7 @@ This app is build with React. Main purpose is to keep track of purchanse items i
 
 
 ## How to access the app from the web <a id="web-access"></a>
-* _Follow the link [here](https://silly-tesla-b0faf4.netlify.app)_ 
+* _Follow the link [here](https://tender-curie-d8ce11.netlify.app/)_ 
 
 ## Known Bugs <a id="known-bugs"></a>
 
